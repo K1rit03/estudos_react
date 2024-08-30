@@ -10,7 +10,7 @@ const pagina = window.location.pathname === '/'  ? <Inicio/>: <SobreMmim/>
 
 
 
-function App() {
+function AppRoutes() {
   return(
   <BrowserRouter>
     <Menu />
@@ -26,4 +26,4 @@ function App() {
   
 }
 
-export default App
+export default AppRoutes
